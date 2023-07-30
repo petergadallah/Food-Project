@@ -1,0 +1,25 @@
+.container {
+  margin: 130px auto 0;
+  animation: moveabove 1.5s ease;
+  /* transform: translateY(50px); */
+}
+
+@keyframes moveabove {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+  }
+}
+
+.species {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+.loading {
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+}

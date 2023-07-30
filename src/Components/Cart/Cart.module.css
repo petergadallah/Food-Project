@@ -1,0 +1,51 @@
+.cart {
+  max-height: 80vh;
+  overflow: auto;
+  position: fixed;
+  z-index: 10;
+  width: 60vw;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  animation: show-slowly 1.2s;
+}
+@keyframes show-slowly {
+  from {
+    transform: translate(-50%, calc(-50% + -60px));
+    opacity: 0.1;
+  }
+  to {
+  }
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.cart button.button {
+  float: right;
+  border-radius: 20px;
+  background-color: brown;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  margin: 20px 0 0 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 70%;
+  z-index: 10;
+}
+#clear {
+  clear: both;
+}

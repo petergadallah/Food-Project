@@ -1,0 +1,46 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item h3 {
+  padding: 0;
+  margin: 10px 0;
+}
+.description {
+  font-style: italic;
+  font-size: 18px;
+}
+.price {
+  color: rgb(170, 120, 28);
+  font-size: 25px;
+  font-family: "Arial";
+}
+.item input {
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #888;
+}
+.item button {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 15px;
+  background-color: rgb(133, 43, 43);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+  background-color: #aaa;
+  color: black;
+}
+/* .choose label {
+  padding-right: 80px;
+} */
+.choose input {
+  margin-left: 20px;
+}

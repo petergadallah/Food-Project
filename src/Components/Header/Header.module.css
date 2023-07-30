@@ -1,0 +1,49 @@
+:root {
+  --myColor: rgb(139, 60, 60);
+}
+
+.header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  color: #fff;
+  background-color: var(--myColor);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 2px 7px 5px rgb(0, 0, 0, 0.2);
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.header button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(77, 16, 16);
+  border-radius: 30px;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #fff;
+  padding: 8px 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.header button span {
+  margin: 0 9px;
+}
+
+.header button span:last-child {
+  border-radius: 12px;
+  background-color: var(--myColor);
+  padding: 5px 10px;
+  margin: 0 15px;
+}
